@@ -72,6 +72,12 @@ export function BookServiceSection() {
 
     const url = buildWhatsAppUrl(lines.join("\n"));
     window.open(url, "_blank", "noopener,noreferrer");
+
+    // Reset for a fresh request — nothing is actually submitted anywhere
+    // (this only opens a pre-filled WhatsApp draft), so there's no reason
+    // to leave stale data sitting in the form afterward.
+    setForm(INITIAL_FORM);
+    setErrors({});
   };
 
   return (
