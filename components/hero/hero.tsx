@@ -95,6 +95,14 @@ export function Hero() {
               asChild
               size="lg"
               variant="outline"
+              className="border-2 border-brand-blue/60 bg-white/5 text-white backdrop-blur-sm transition-colors hover:border-brand-blue hover:bg-white/10"
+            >
+              <a href="#book-service">Book a Service</a>
+            </Button>
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
               className="border-white/30 text-white transition-colors hover:bg-white/10"
             >
               <a href="#contact">Contact Us</a>
