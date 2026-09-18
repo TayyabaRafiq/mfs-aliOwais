@@ -105,7 +105,37 @@ The website may reference documented NBP enlistment history using careful, accur
 - Signatures
 - Any confidential contractual information
 
-The two documented NBP certificates above are sufficient to establish this history and credibility; the project does not need to wait for additional NBP certificates before proceeding. Additional NBP renewal/enlistment certificates are an optional future addition — if provided later, they should be reviewed and incorporated into this facts file, but they are not a blocker.
+A third document has since been reviewed:
+
+**Document 3 — Approved Labor Pass (dated 13 March 2020):**
+An approved labor pass from NBP's Engineering Wing Operations Group, authorizing Mahrukh Fumigation Services to carry out fumigation work at NBP Head Office. This document names individual workers and includes personal identification details (e.g., CNIC numbers); **only the fact that the engagement occurred and its date may be published — no worker names, CNIC numbers, or other personal identification details from this document may appear anywhere on the site.**
+
+Taken together, these three documents support describing NBP engagement as **documented history spanning 2013 through at least 2020** — still framed as historical/documented evidence, never as a current, ongoing relationship.
+
+The two original NBP certificates plus this labor pass are sufficient to establish this history and credibility; the project does not need to wait for additional NBP documents before proceeding. Further NBP documents are an optional future addition — if provided later, they should be reviewed and incorporated into this facts file, but they are not a blocker.
+
+---
+
+## Years in Business — Corroborating Evidence
+
+A company proposal document from approximately 2019 states the business was "working since 20 years" at that time. Projected forward (2019 + ~7 years), this is consistent with — not contradictory to — the current "25+ years" figure already in use. This is supporting evidence only; it does not change the displayed stat. It may support phrasing such as "over two decades of documented experience" if useful, but does not require a specific number of years to be cited beyond what's already approved ("25+ years").
+
+---
+
+## Broader Sector Experience — Self-Reported, Not for the Public Client List
+
+The same ~2019 proposal document lists a broader set of sectors/organizations the company reports having served, self-reported by the company on its own proposal and **not independently verified** in the way the NBP and Meezan Bank documents are.
+
+- **Approved for use**: neutral, generic **sector** language only — e.g., banking, healthcare, hospitality, corporate, education, logistics/travel. This may be used in general copy (e.g., "experience across sectors including banking, healthcare, hospitality, corporate, education, and logistics/travel").
+- **NOT approved**: adding any new organization/entity name to the public Organizations Served list (`## Documented Organizational / Client Experience` above) beyond what's already listed there. The self-reported proposal document is not sufficient evidence on its own to add a named entity to that list.
+- **Specifically unconfirmed**: one name on the proposal appears as "Nova Dest (Pvt) Ltd," which may or may not be the same entity as "Novonodec" already in the approved list. This spelling/entity question is `[NEEDS VERIFICATION]` — do not rename, merge, or add either variant anywhere until confirmed.
+- **Chemical/product names**: the proposal document names specific chemical/product brands. These are self-reported and not independently verified, and brand-name chemical claims are out of scope for this site regardless of verification status. **Do not publish any specific chemical or product brand name anywhere on the site.** Chemical-related copy stays generic, per the existing Claim Safety rules below (no blanket "WHO-approved"/"EPA-approved" claims).
+
+---
+
+## General Positioning Statement — Approved
+
+A general, forward-looking statement that the company continues to operate and grow is approved for use near the Track Record content, e.g.: "Mahrukh Fumigation Services continues to serve a diverse range of commercial and institutional sectors across Karachi, growing its experience and capabilities over time." This is a general capability statement grounded in the already-approved sector language above — it must NOT name any specific organization (including NBP) as a current or ongoing client, and must NOT reference why any documentation stops at a particular date. It sits alongside, and does not alter, the historical framing of the NBP Track Record content ("documented historical engagement, not a current, ongoing relationship").
 
 ---
 
@@ -221,7 +251,8 @@ If information is uncertain, mark it as `[NEEDS VERIFICATION]`.
 The information and documents reviewed so far are sufficient to establish the company's history and credibility for proceeding to the next project stage. The following remain open only as optional future additions, not blockers:
 
 - Actual business/service photographs (optional — not a blocker; see Hero Requirements)
-- Additional NBP certificates/documents beyond the two already reviewed (optional — not a blocker; see NBP section)
+- Further NBP documents beyond the three now reviewed (optional — not a blocker; see NBP section)
+- Whether "Novonodec" and "Nova Dest (Pvt) Ltd" refer to the same entity, and if so which spelling is correct (see "Broader Sector Experience" — do not resolve by guessing)
 - Any additional verified services
 - Any additional verified credentials
 - Any other important company facts that may be supplied later

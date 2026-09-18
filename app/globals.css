@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-brand-navy text-slate-100;
+  }
+}
+
+@layer utilities {
+  .border-border {
+    border-color: theme("colors.white / 10%");
+  }
+
+  /* Subtle atmospheric noise/texture so large flat dark sections don't feel
+     like plain color blocks — extremely low-opacity, purely decorative. */
+  .bg-grain::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.4;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+    background-size: 3px 3px;
+  }
+}
+
+/* Marquee and other decorative motion must go static for visitors who ask
+   for reduced motion (FR-009, FR-039, FR-051, Constitution Principle XIV). */
+@media (prefers-reduced-motion: reduce) {
+  .motion-safe-only {
+    animation: none !important;
+    transition: none !important;
+  }
+}
