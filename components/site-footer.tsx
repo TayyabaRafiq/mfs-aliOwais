@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { LogoMark } from "@/components/logo-mark";
 import { Separator } from "@/components/ui/separator";
 import { businessProfile } from "@/lib/content/business-profile";
@@ -42,8 +43,14 @@ export function SiteFooter() {
 
       <Separator className="relative" />
 
-      <div className="relative px-4 py-5 text-center text-xs text-blue-100/50">
-        © {new Date().getUTCFullYear()} {businessProfile.name}. All rights reserved.
+      <div className="relative flex flex-col items-center gap-1 px-4 py-5 text-center text-xs text-blue-100/50 sm:flex-row sm:justify-center sm:gap-2">
+        <span>
+          © {new Date().getUTCFullYear()} {businessProfile.name}. All rights reserved.
+        </span>
+        <span className="hidden sm:inline">·</span>
+        <Link href="/privacy" className="underline-offset-2 transition-colors hover:text-blue-100 hover:underline">
+          Privacy Policy
+        </Link>
       </div>
     </footer>
   );
