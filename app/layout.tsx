@@ -6,6 +6,10 @@ import { businessProfile } from "@/lib/content/business-profile";
 export const metadata: Metadata = {
   title: `${businessProfile.name} | Fumigation & Pest Control in ${businessProfile.location}`,
   description: `${businessProfile.name} provides fumigation, disinfestation, derating, termite proofing, rodent control, and pest control services in ${businessProfile.location}, with ${businessProfile.experience} of experience.`,
+  // Google Search Console site-ownership verification.
+  verification: {
+    google: "chHXb_PvTdNcSikadcp_VyJxpsg6-VD8rvk64yg0jEw",
+  },
   // Favicon set generated from the real logo (public/logo/mahrukh-logo.png)
   // via a crop of its circular emblem — see components/logo-mark.tsx and
   // the image-processing notes for that request. Replaces the earlier
